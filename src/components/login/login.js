@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "axios";
+import axios from "../../http";
 import {
   Flex,
   WhiteSpace,
@@ -31,7 +31,7 @@ class Login extends Component {
     const { history } = this.props;
     const body = this.state;
     // console.log(this.state);
-    const res = await axios.post(`http://127.0.0.1:8086/users/login`, body);
+    const res = await axios.post(`users/login`, body);
     // console.log(res);
     const { meta, data } = res.data;
     if (meta.status === 200) {
