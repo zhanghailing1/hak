@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "demos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+=======
+  "name": "hak",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.2.9",
+    "axios": "^0.18.0",
+>>>>>>> ee9b801445ed314ea0dd923afe3d16f7641e653d
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-dom": "^4.3.1",
